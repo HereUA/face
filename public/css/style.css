@@ -1,18 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Condensed&subset=latin,cyrillic);
+
 html, body {
     height: 100%;
+    margin: 0;
 }
 
 body {
-    background-color: #CFCD2F;
-    color: #406386;
-    font-family: monospace;
+    font-family: 'Ubuntu Condensed', sans-serif;
 }
 
-.main {
-    position: fixed;
-    top: 50%;
-    margin-top: -100px;
-    height: 200px;
-    text-align: center;
-    width: 100%
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+#logo {
+    margin: 0;
+}
+
+#logo img {
+    max-width: 92px;
+}
+
+.pib {
+    display: inline-block;
+}
+
+header{
+    margin: 0 auto;
+    background-color: #232323;
+}
+
+header > div{
+    vertical-align: middle;
+    display: inline-block; /*change it*/
+}
+
+header li{
+    display: block;
+}
+
+.main-nav-wrap{
+    float: right;
+}
+
+.main-nav{
+
+}
+
+.main-nav ul{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    margin: 0;
+    list-style: none;
+}
+
+.main-nav a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 2em;
+    padding: 1em;
+    display: block;
+    transition: color 0.25s ease-in 0s;
+}
+
+.main-nav a:hover{
+    color: #009fff;
+}
+
+.fl{
+    float: left;
+}
+
+.cover{
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100%;
+}
+
+.home-page{
+    background: url("/images/unsplash/main1.jpg");
 }
