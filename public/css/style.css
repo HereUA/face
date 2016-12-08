@@ -5,6 +5,10 @@ html, body {
     margin: 0;
 }
 
+.main{
+    height: 100%;
+}
+
 body {
     font-family: 'Ubuntu Condensed', sans-serif;
 }
@@ -20,6 +24,7 @@ ul {
 
 #logo img {
     max-width: 92px;
+    padding: 0 16px;
 }
 
 .pib {
@@ -27,8 +32,12 @@ ul {
 }
 
 header{
-    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    margin: 0;
     background-color: #232323;
+    z-index: 999;
+    width: 100%;
 }
 
 header > div{
@@ -40,20 +49,24 @@ header li{
     display: block;
 }
 
+.hidden{
+    display: none;
+}
+
 .main-nav-wrap{
     float: right;
 }
 
-.main-nav{
-
-}
+.main-nav{}
 
 .main-nav ul{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-flow: row wrap;
     margin: 0;
     list-style: none;
+    height: 99px;
 }
 
 .main-nav a{
@@ -76,10 +89,92 @@ header li{
 .cover{
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
     position: relative;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
-.home-page{
-    background: url("/images/unsplash/main1.jpg");
+.cover .main-nav ul{
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: column nowrap;
+    font-size: 1.25em;
+}
+
+#home{
+    /*background: url("/images/unsplash/main1.jpg");*/
+    background-color: #232323;
+}
+
+#home .devices{
+    padding: 8px 96px;
+}
+
+#home .logo-lg{
+    align-self: flex-start;
+}
+
+#service{
+    background-image: url("/images/unsplash/main1.jpg");
+}
+
+#team{
+    background-image: url("/images/unsplash/main2.jpg");
+}
+
+#portfolio{
+    background-image: url("/images/unsplash/main3.jpg");
+}
+
+#contact-us{
+    background-image: url("/images/unsplash/time1.jpg");
+}
+
+@media screen and (max-width: 900px) {
+    .main-nav a{
+        font-size: 1.8em;
+        padding: 0.5em;
+    }
+}
+
+/*change on collapse*/
+@media screen and (max-width: 678px) {
+    .main-nav a{
+        font-size: 1.4em;
+        padding: 0.25em;
+    }
+    #logo img {
+        max-width: 64px;
+    }
+    .main-nav ul{
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .main-nav a{
+        font-size: 1.2em;
+        padding: 0.2em;
+    }
+    #logo img {
+        max-width: 48px;
+    }
+    .main-nav ul{
+        height: 56px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .main-nav a{
+        font-size: 1em;
+        padding: 0.1em;
+    }
+    #logo img {
+        max-width: 42px;
+    }
 }

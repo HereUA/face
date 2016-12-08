@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-<header>
+<header class="hidden">
     <div>
         <h1 id="logo">
             <a href="/" title="HereUA">
@@ -30,11 +30,41 @@
     </div>
 </header>
 <section class="main">
-    <section class="content">
-        <section class="cover home-page" id="#home">
-
-        </section>
+    <section class="cover" id="home">
+        <div>
+            <img src="/images/logo.png" class="logo-lg">
+        </div>
+        <div>
+            <img src="/images/desktop-mobile.svg" class="devices">
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+            </ul>
+        </nav>
+    </section>
+    <section class="cover" id="service">
+        service
+    </section>
+    <section class="cover" id="team">
+        team
+    </section>
+    <section class="cover" id="portfolio">
+        portfolio
+    </section>
+    <section class="cover" id="contact-us">
+        contact us
     </section>
 </section>
+<script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous">
+</script>
+<script src="/js/main.js"></script>
 </body>
 </html>
