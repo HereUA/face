@@ -24,15 +24,17 @@
                 <li><a href="#service">Service</a></li>
                 <li><a href="#team">Team</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact-us">Contact Us</a></li>
+                <li><a href="#contact-us">Contact us</a></li>
             </ul>
         </nav>
     </div>
 </header>
 <section class="main">
+
     <section class="cover" id="home">
-        <div>
+        <div class="introduction">
             <img src="/images/logo.png" class="logo-lg">
+            <h3>Web development & design</h3>
         </div>
         <div>
             <img src="/images/desktop-mobile.svg" class="devices">
@@ -43,22 +45,27 @@
                 <li><a href="#service">Service</a></li>
                 <li><a href="#team">Team</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact-us">Contact Us</a></li>
+                <li><a href="#contact-us">Contact us</a></li>
             </ul>
         </nav>
     </section>
+
     <section class="cover" id="service">
         service
     </section>
+
     <section class="cover" id="team">
         team
     </section>
+
     <section class="cover" id="portfolio">
         portfolio
     </section>
+
     <section class="cover" id="contact-us">
         contact us
     </section>
+
 </section>
 <script
     src="https://code.jquery.com/jquery-3.1.1.min.js"

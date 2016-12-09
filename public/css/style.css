@@ -49,6 +49,11 @@ header li{
     display: block;
 }
 
+h3{
+    font-size: 2em;
+    color: whitesmoke;
+}
+
 .hidden{
     display: none;
 }
@@ -106,12 +111,17 @@ header li{
     font-size: 1.25em;
 }
 
+.cover .introduction{
+    text-align: center;
+}
+
 #home{
     /*background: url("/images/unsplash/main1.jpg");*/
+    background: url("/images/grid-op.png");
     background-color: #232323;
 }
 
-#home .devices{
+.devices{
     padding: 8px 96px;
 }
 
@@ -135,10 +145,39 @@ header li{
     background-image: url("/images/unsplash/time1.jpg");
 }
 
+
+@media screen and (max-width: 1600px) {
+    .devices{
+        max-width: 480px;
+    }
+    .cover .main-nav a{
+        padding: 0.5em;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .devices{
+        max-width: 360px;
+        padding: 8px 42px 8px 8px;
+    }
+    .cover .main-nav a{
+        padding: 0.4em;
+        font-size: 1.6em;
+    }
+}
+
+
 @media screen and (max-width: 900px) {
     .main-nav a{
         font-size: 1.8em;
         padding: 0.5em;
+    }
+    .cover{
+        justify-content: flex-start;
+        flex-flow: column;
+    }
+    .cover .main-nav{
+        display: none;
     }
 }
 
