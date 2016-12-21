@@ -8,7 +8,7 @@
     <title>Web development and design: HereUA company</title>
     <link rel="shortcut icon" href="/images/favicon.png" type="image/png">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-flex.min.css">
     <link rel="stylesheet" href="/css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -47,24 +47,30 @@
 
 <section class="main container-fluid">
 
-    <section class="cover" id="home">
+    <section class="cover vertical-center" id="home">
         <section class="container">
-            <div class="introduction">
-                <img src="/images/logo.png" class="logo-lg">
-                <h3>Web development & design</h3>
+            <div class="row flex-items-xs-middle">
+                <div class="introduction col-md-8">
+                    <img src="/images/logo.png" class="logo-lg">
+                    <h2>Web development & design</h2>
+                </div>
+                <nav class="main-nav col-md-4">
+                    <ul class="nav nav-pills nav-stacked" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link" data-scroll="true" href="#service" data-id="#service">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-scroll="true" href="#team" data-id="#team">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-scroll="true" href="#portfolio" data-id="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-scroll="true" href="#contact-us" data-id="#contact-us">Contact us</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <div>
-                <img src="/images/desktop-mobile.svg" class="devices">
-            </div>
-            <nav class="main-nav">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#service">Service</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact-us">Contact us</a></li>
-                </ul>
-            </nav>
         </section>
     </section>
 
