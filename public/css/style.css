@@ -79,6 +79,22 @@ body {
     align-items: center;
 }
 
+.card img{
+    max-width: 100%;
+}
+
+.card.card-inverse{
+    background-color: #232323;
+}
+
+.skills{
+    font-size: 1.25rem;
+}
+
+.skills .badge.badge-primary{
+    background-color: #009FFF;
+}
+
 .cover {
     background-size: cover;
     background-repeat: no-repeat;

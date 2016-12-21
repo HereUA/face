@@ -75,27 +75,88 @@
     </section>
 
     <section class="cover" id="service">
-        <section class="container">
-            service
-        </section>
+        <section class="container"></section>
     </section>
 
     <section class="cover" id="team">
         <section class="container">
-            team
+            <div class="row flex-items-xs-center">
+                <div class="col-sm-4 card-deck">
+                    <div class="card text-xs-center card-inverse">
+                        <img class="card-img-top" src="/images/team/alex-gerasimenko.png" alt=">Alex Gerasimenko">
+                        <div class="card-block">
+                            <h4 class="card-title">Alex Gerasimenko</h4>
+                            <h5 class="card-text">
+                                Senior developer, manager
+                            </h5>
+                            <div class="skills">
+                                <span class="tag tag-primary">AngularJS</span>
+                                <span class="tag tag-primary">Ionic</span>
+                            </div>
+                            <p class="card-text"><small class="text-muted">Available</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row flex-items-xs-center">
+                <div class="col-sm-4 card-deck">
+                    <div class="card text-xs-center card-inverse">
+                        <img class="card-img-top" src="/images/team/alex-khaylo.png" alt="Alex Khaylo">
+                        <div class="card-block">
+                            <h4 class="card-title">Alex Khaylo</h4>
+                            <h5 class="card-text">
+                                Senior developer, architect
+                            </h5>
+                            <div class="skills">
+                                <span class="tag tag-primary">React Native</span>
+                                <span class="tag tag-primary">NodeJS</span>
+                            </div>
+                            <p class="card-text"><small class="text-muted">Available</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 card-deck">
+                    <div class="card text-xs-center card-inverse">
+                        <img class="card-img-top" src="/images/team/roman-brazhko.png" alt="Roman Brazhko">
+                        <div class="card-block">
+                            <h4 class="card-title">Roman Brazhko</h4>
+                            <h5 class="card-text">
+                                Senior web developer
+                            </h5>
+                            <div class="skills">
+                                <span class="tag tag-primary">AngularJS</span>
+                            </div>
+                            <p class="card-text"><small class="text-muted">Available</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 card-deck">
+                    <div class="card text-xs-center card-inverse">
+                        <img class="card-img-top" src="/images/team/stanislav-dmitrenko.png" alt="Stanislav Dmitrenko">
+                        <div class="card-block">
+                            <h4 class="card-title">Stanislav Dmitrenko</h4>
+                            <h5 class="card-text">
+                                Senior web developer
+                            </h5>
+                            <div class="skills">
+                                <span class="tag tag-primary">ReactJS</span>
+                                <span class="tag tag-primary">Laravel</span>
+                            </div>
+                            <p class="card-text"><small class="text-muted">Available</small></p>
+                        </div>
+                    </div>
+                </div>
+                <!--todo plus card with form to hire new members-->
+            </div>
         </section>
     </section>
 
     <section class="cover" id="portfolio">
-        <section class="container">
-            portfolio
-        </section>
+        <section class="container"></section>
     </section>
 
     <section class="cover" id="contact-us">
-        <section class="container">
-            contact us
-        </section>
+        <section class="container"></section>
     </section>
 
 </section>
