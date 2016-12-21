@@ -5,215 +5,103 @@ html, body {
     margin: 0;
 }
 
-.main{
+body {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    position: relative;
+}
+
+.main {
     height: 100%;
 }
 
-body {
-    font-family: 'Ubuntu Condensed', sans-serif;
+.logo {
+    max-width: 52px;
 }
 
-ul {
-    padding: 0;
-    margin: 0;
+.navbar {
+    font-size: 2rem;
 }
 
-#logo {
-    margin: 0;
+.navbar-nav .nav-item {
+    padding-left: 1rem;
 }
 
-#logo img {
-    max-width: 92px;
-    padding: 0 16px;
-}
-
-.pib {
-    display: inline-block;
-}
-
-header{
-    position: fixed;
-    top: 0;
-    margin: 0;
-    background-color: #232323;
-    z-index: 999;
-    width: 100%;
-}
-
-header > div{
-    vertical-align: middle;
-    display: inline-block; /*change it*/
-}
-
-header li{
-    display: block;
-}
-
-h3{
-    font-size: 2em;
-    color: whitesmoke;
-}
-
-.hidden{
-    display: none;
-}
-
-.main-nav-wrap{
-    float: right;
-}
-
-.main-nav{}
-
-.main-nav ul{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-flow: row wrap;
-    margin: 0;
-    list-style: none;
-    height: 99px;
-}
-
-.main-nav a{
-    color: whitesmoke;
-    text-decoration: none;
-    font-size: 2em;
-    padding: 1em;
-    display: block;
+.navbar-dark .navbar-nav .nav-link{
     transition: color 0.25s ease-in 0s;
 }
 
-.main-nav a:hover{
-    color: #009fff;
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .active > .nav-link:focus, .navbar-dark .navbar-nav .active > .nav-link:hover, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.active:focus, .navbar-dark .navbar-nav .nav-link.active:hover, .navbar-dark .navbar-nav .nav-link.open, .navbar-dark .navbar-nav .nav-link.open:focus, .navbar-dark .navbar-nav .nav-link.open:hover, .navbar-dark .navbar-nav .open > .nav-link, .navbar-dark .navbar-nav .open > .nav-link:focus, .navbar-dark .navbar-nav .open > .nav-link:hover {
+    color: #009FFF;
 }
 
-.fl{
-    float: left;
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(0, 159, 255, .75);
 }
 
-.cover{
+.dn{
+    display: none;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+.navbar-dark {
+    background-color: #232323;
+}
+
+.cover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
     position: relative;
     min-height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
 }
 
-.cover .main-nav ul{
-    justify-content: center;
-    align-items: flex-start;
-    flex-flow: column nowrap;
-    font-size: 1.25em;
-}
-
-.cover .introduction{
+.cover .introduction {
     text-align: center;
 }
 
-#home{
+#home {
     /*background: url("/images/unsplash/main1.jpg");*/
     background: url("/images/grid-op.png");
     background-color: #232323;
 }
 
-.devices{
-    padding: 8px 96px;
-}
-
-#home .logo-lg{
-    align-self: flex-start;
-}
-
-#service{
+#service {
     background-image: url("/images/unsplash/main1.jpg");
 }
 
-#team{
+#team {
     background-image: url("/images/unsplash/main2.jpg");
 }
 
-#portfolio{
+#portfolio {
     background-image: url("/images/unsplash/main3.jpg");
 }
 
-#contact-us{
+#contact-us {
     background-image: url("/images/unsplash/time1.jpg");
 }
 
-
 @media screen and (max-width: 1600px) {
-    .devices{
-        max-width: 480px;
-    }
-    .cover .main-nav a{
-        padding: 0.5em;
-    }
 }
 
 @media screen and (max-width: 1200px) {
-    .devices{
-        max-width: 360px;
-        padding: 8px 42px 8px 8px;
-    }
-    .cover .main-nav a{
-        padding: 0.4em;
-        font-size: 1.6em;
-    }
 }
-
 
 @media screen and (max-width: 900px) {
-    .main-nav a{
-        font-size: 1.8em;
-        padding: 0.5em;
-    }
-    .cover{
-        justify-content: flex-start;
-        flex-flow: column;
-    }
-    .cover .main-nav{
-        display: none;
-    }
 }
 
-/*change on collapse*/
 @media screen and (max-width: 678px) {
-    .main-nav a{
-        font-size: 1.4em;
-        padding: 0.25em;
-    }
-    #logo img {
-        max-width: 64px;
-    }
-    .main-nav ul{
-        height: 70px;
-    }
 }
 
 @media screen and (max-width: 500px) {
-    .main-nav a{
-        font-size: 1.2em;
-        padding: 0.2em;
-    }
-    #logo img {
-        max-width: 48px;
-    }
-    .main-nav ul{
-        height: 56px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .main-nav a{
-        font-size: 1em;
-        padding: 0.1em;
-    }
-    #logo img {
-        max-width: 42px;
-    }
 }

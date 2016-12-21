@@ -5,77 +5,101 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>HereUA company</title>
+    <title>Web development and design: HereUA company</title>
     <link rel="shortcut icon" href="/images/favicon.png" type="image/png">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="/css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="/css/style.css">
 </head>
-<body>
-<header class="hidden">
-    <div>
-        <h1 id="logo">
-            <a href="/" title="HereUA">
-                <img src="/images/logo.png" alt="HereUA" />
+<body data-spy="scroll" data-target="#navbar">
+
+<nav class="navbar navbar-fixed-top navbar-dark dn" id="main-nav">
+    <section class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggler hidden-lg-up float-xs-right" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"></button>
+            <a class="navbar-brand" href="/" title="HereUA Web development and design company">
+                <img src="/images/logo.png" alt="HereUA Web development and design company" class="logo" />
             </a>
-        </h1>
-    </div>
-    <div class="main-nav-wrap">
-        <nav class="main-nav">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#service">Service</a></li>
-                <li><a href="#team">Team</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact-us">Contact us</a></li>
+        </div>
+
+        <div class="collapse navbar-toggleable-md" id="navbar">
+            <ul class="nav navbar-nav float-xs-right" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link" data-scroll="true" href="#home" data-id="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-scroll="true" href="#service" data-id="#service">Service</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-scroll="true" href="#team" data-id="#team">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-scroll="true" href="#portfolio" data-id="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-scroll="true" href="#contact-us" data-id="#contact-us">Contact us</a>
+                </li>
             </ul>
-        </nav>
-    </div>
-</header>
-<section class="main">
+        </div>
+    </section>
+</nav>
+
+<section class="main container-fluid">
 
     <section class="cover" id="home">
-        <div class="introduction">
-            <img src="/images/logo.png" class="logo-lg">
-            <h3>Web development & design</h3>
-        </div>
-        <div>
-            <img src="/images/desktop-mobile.svg" class="devices">
-        </div>
-        <nav class="main-nav">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#service">Service</a></li>
-                <li><a href="#team">Team</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact-us">Contact us</a></li>
-            </ul>
-        </nav>
+        <section class="container">
+            <div class="introduction">
+                <img src="/images/logo.png" class="logo-lg">
+                <h3>Web development & design</h3>
+            </div>
+            <div>
+                <img src="/images/desktop-mobile.svg" class="devices">
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact-us">Contact us</a></li>
+                </ul>
+            </nav>
+        </section>
     </section>
 
     <section class="cover" id="service">
-        service
+        <section class="container">
+            service
+        </section>
     </section>
 
     <section class="cover" id="team">
-        team
+        <section class="container">
+            team
+        </section>
     </section>
 
     <section class="cover" id="portfolio">
-        portfolio
+        <section class="container">
+            portfolio
+        </section>
     </section>
 
     <section class="cover" id="contact-us">
-        contact us
+        <section class="container">
+            contact us
+        </section>
     </section>
 
 </section>
+
 <script
     src="https://code.jquery.com/jquery-3.1.1.min.js"
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
     crossorigin="anonymous">
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 <script src="/js/main.js"></script>
 </body>

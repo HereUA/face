@@ -9,15 +9,31 @@ $(function(){
 
     /*menu*/
     var $document = $(document);
-    var $nav = $('header');
-    var $main = $('.main');
+    var $nav = $('#main-nav');
+    var $home = $('#home');
     $document.on('scroll', function(e){
-        if($(this).scrollTop() > $main.height() - 99){
+        if($(this).scrollTop() > $home.height() - 80){
             $nav.slideDown();
         } else {
             $nav.slideUp();
         }
     });
     $document.trigger('scroll');
+
+    /*scroll nav*/
+    $('a[data-scroll="true"]').click(function(e){
+
+        var scroll_target = $(this).data('id');
+        var scroll_trigger = $(this).data('scroll');
+
+        if(scroll_trigger == true && scroll_target !== undefined){
+            e.preventDefault();
+
+            $('html, body').animate({
+                scrollTop: $(scroll_target).offset().top
+            }, 1000);
+        }
+
+    });
 
 });
