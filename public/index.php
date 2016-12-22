@@ -4,15 +4,22 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Web development and design: HereUA company</title>
-    <link rel="shortcut icon" href="/images/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="apple-mobile-web-app-title" content="HereUA">
+    <meta name="application-name" content="HereUA">
+    <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/bootstrap-flex.min.css">
     <link rel="stylesheet" href="/css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="//cdn.materialdesignicons.com/1.7.22/css/materialdesignicons.min.css"><!--load lib-->
     <link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body data-spy="scroll" data-target="#navbar">
 
 <nav class="navbar navbar-fixed-top navbar-dark dn" id="main-nav">
@@ -88,7 +95,7 @@
                         <div class="card-block">
                             <h3 class="card-title">Hybrid mobile</h3>
                             <h4 class="card-text">
-                                Hybrid mobile application development using Ionic, ReactNative
+                                Hybrid mobile application development using Ionic, React Native
                             </h4>
                         </div>
                     </div>
@@ -200,6 +207,7 @@
                             <div class="skills">
                                 <span class="tag tag-primary">AngularJS</span>
                                 <span class="tag tag-primary">Ionic</span>
+                                <span class="tag tag-primary">Laravel</span>
                             </div>
                             <p class="card-text"><small class="text-muted">Available</small></p>
                         </div>
@@ -218,6 +226,7 @@
                             </h4>
                             <div class="skills">
                                 <span class="tag tag-primary">React Native</span>
+                                <span class="tag tag-primary">Express</span>
                                 <span class="tag tag-primary">NodeJS</span>
                             </div>
                             <p class="card-text"><small class="text-muted">Available</small></p>
@@ -250,6 +259,7 @@
                             <div class="skills">
                                 <span class="tag tag-primary">ReactJS</span>
                                 <span class="tag tag-primary">Laravel</span>
+                                <span class="tag tag-primary">YII</span>
                             </div>
                             <p class="card-text"><small class="text-muted">Available</small></p>
                         </div>
