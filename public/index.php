@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/bootstrap-flex.min.css">
     <link rel="stylesheet" href="/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="//cdn.materialdesignicons.com/1.7.22/css/materialdesignicons.min.css"><!--load lib-->
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body data-spy="scroll" data-target="#navbar">
@@ -19,6 +20,7 @@
         <div class="navbar-header">
             <button class="navbar-toggler hidden-lg-up float-xs-right" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"></button>
             <a class="navbar-brand" href="/" title="HereUA Web development and design company">
+                <!--todo add christmas hat-->
                 <img src="/images/logo.png" alt="HereUA Web development and design company" class="logo" />
             </a>
         </div>
@@ -75,20 +77,126 @@
     </section>
 
     <section class="cover" id="service">
-        <section class="container"></section>
+        <section class="container">
+
+            <h2 class="text-xs-center display-1 company-section-title">&lt;service/&gt;</h2>
+
+            <div class="row flex-items-xs-center">
+                <div class="col-sm-4 card-deck service-item">
+                    <div class="card text-xs-center card-inverse">
+                        <i class="mdi mdi-cellphone-iphone card-img-top service-icon"></i>
+                        <div class="card-block">
+                            <h3 class="card-title">Hybrid mobile</h3>
+                            <h4 class="card-text">
+                                Hybrid mobile application development using Ionic, ReactNative
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 card-deck service-item">
+                    <div class="card text-xs-center card-inverse">
+                        <i class="mdi mdi-responsive card-img-top service-icon"></i>
+                        <div class="card-block">
+                            <h3 class="card-title">Web</h3>
+                            <h4 class="card-text">
+                                Web application development using Laravel, YII2, Express
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 card-deck service-item">
+                    <div class="card text-xs-center card-inverse">
+                        <i class="mdi mdi-server card-img-top service-icon"></i>
+                        <i class="mdi mdi-ray-start-end card-img-top service-icon"></i>
+                        <i class="mdi mdi-cellphone-iphone card-img-top service-icon"></i>
+                        <div class="card-block">
+                            <h3 class="card-title">API</h3>
+                            <h4 class="card-text">
+                                API development using Laravel, Express (MongoDB, Redis, MySQL)
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row flex-items-xs-center">
+                <div class="col-sm-4 card-deck service-item coming-soon">
+                    <div class="card text-xs-center card-inverse">
+                        <div class="card-block coming-soon-text">
+                            <p class="card-title text-xs-center">coming soon...</p>
+                        </div>
+                        <i class="mdi mdi-desktop-mac card-img-top service-icon"></i>
+                        <div class="card-block">
+                            <h3 class="card-title">Desktop</h3>
+                            <h4 class="card-text">
+                                Desktop application using Electron with web backend
+                            </h4>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 card-deck service-item coming-soon">
+                    <div class="card text-xs-center card-inverse">
+                        <div class="card-block coming-soon-text">
+                            <p class="card-title text-xs-center">coming soon...</p>
+                        </div>
+                        <i class="mdi mdi-arrow-up-bold-hexagon-outline card-img-top service-icon"></i>
+                        <div class="card-block">
+                            <h3 class="card-title">SEO</h3>
+                            <h4 class="card-text">
+                                ON/OFF-page SEO
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 card-deck service-item coming-soon">
+                    <div class="card text-xs-center card-inverse">
+                        <div class="card-block coming-soon-text">
+                            <p class="card-title text-xs-center">coming soon...</p>
+                        </div>
+                        <i class="mdi mdi-broom card-img-top service-icon"></i>
+                        <div class="card-block">
+                            <h3 class="card-title">Design</h3>
+                            <h4 class="card-text">
+                                Project and create design, mockups, prototype
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row flex-items-xs-center">
+                <div class="col-sm-4 card-deck service-item">
+                    <div class="card text-xs-center card-inverse">
+                        <i class="mdi mdi-android-studio card-img-top service-icon"></i>
+                        <i class="mdi mdi-calculator card-img-top service-icon"></i>
+                        <div class="card-block">
+                            <h3 class="card-title">Estimate</h3>
+                            <h4 class="card-text">
+                                Estimate project, help choose programming language, DBs, frameworks and libraries
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
     </section>
 
     <section class="cover" id="team">
         <section class="container">
+
+            <h2 class="text-xs-center display-1 company-section-title">&lt;team/&gt;</h2>
+
             <div class="row flex-items-xs-center">
-                <div class="col-sm-4 card-deck">
+                <div class="col-sm-4 card-deck team-member">
                     <div class="card text-xs-center card-inverse">
                         <img class="card-img-top" src="/images/team/alex-gerasimenko.png" alt=">Alex Gerasimenko">
                         <div class="card-block">
-                            <h4 class="card-title">Alex Gerasimenko</h4>
-                            <h5 class="card-text">
+                            <h3 class="card-title">Alex Gerasimenko</h3>
+                            <h4 class="card-text">
                                 Senior developer, manager
-                            </h5>
+                            </h4>
                             <div class="skills">
                                 <span class="tag tag-primary">AngularJS</span>
                                 <span class="tag tag-primary">Ionic</span>
@@ -98,15 +206,16 @@
                     </div>
                 </div>
             </div>
+
             <div class="row flex-items-xs-center">
-                <div class="col-sm-4 card-deck">
+                <div class="col-sm-4 card-deck team-member">
                     <div class="card text-xs-center card-inverse">
                         <img class="card-img-top" src="/images/team/alex-khaylo.png" alt="Alex Khaylo">
                         <div class="card-block">
-                            <h4 class="card-title">Alex Khaylo</h4>
-                            <h5 class="card-text">
+                            <h3 class="card-title">Alex Khaylo</h3>
+                            <h4 class="card-text">
                                 Senior developer, architect
-                            </h5>
+                            </h4>
                             <div class="skills">
                                 <span class="tag tag-primary">React Native</span>
                                 <span class="tag tag-primary">NodeJS</span>
@@ -115,14 +224,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 card-deck">
+                <div class="col-sm-4 card-deck team-member">
                     <div class="card text-xs-center card-inverse">
                         <img class="card-img-top" src="/images/team/roman-brazhko.png" alt="Roman Brazhko">
                         <div class="card-block">
-                            <h4 class="card-title">Roman Brazhko</h4>
-                            <h5 class="card-text">
+                            <h3 class="card-title">Roman Brazhko</h3>
+                            <h4 class="card-text">
                                 Senior web developer
-                            </h5>
+                            </h4>
                             <div class="skills">
                                 <span class="tag tag-primary">AngularJS</span>
                             </div>
@@ -130,14 +239,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 card-deck">
+                <div class="col-sm-4 card-deck team-member">
                     <div class="card text-xs-center card-inverse">
                         <img class="card-img-top" src="/images/team/stanislav-dmitrenko.png" alt="Stanislav Dmitrenko">
                         <div class="card-block">
-                            <h4 class="card-title">Stanislav Dmitrenko</h4>
-                            <h5 class="card-text">
+                            <h3 class="card-title">Stanislav Dmitrenko</h3>
+                            <h4 class="card-text">
                                 Senior web developer
-                            </h5>
+                            </h4>
                             <div class="skills">
                                 <span class="tag tag-primary">ReactJS</span>
                                 <span class="tag tag-primary">Laravel</span>
@@ -148,16 +257,29 @@
                 </div>
                 <!--todo plus card with form to hire new members-->
             </div>
+
         </section>
     </section>
 
     <section class="cover" id="portfolio">
-        <section class="container"></section>
+        <section class="container">
+            <!--cards with image, small description, url and technology stack-->
+
+            <h2 class="text-xs-center display-1 company-section-title">&lt;portfolio/&gt;</h2>
+
+        </section>
     </section>
 
     <section class="cover" id="contact-us">
-        <section class="container"></section>
+        <section class="container">
+            <!--our mail, or send form, location and map-->
+
+            <h2 class="text-xs-center display-1 company-section-title">&lt;contact-us/&gt;</h2>
+
+        </section>
     </section>
+
+    <!--todo add footer-->
 
 </section>
 

@@ -84,7 +84,7 @@ body {
 }
 
 .card.card-inverse{
-    background-color: #232323;
+    background-color: rgba(35, 35, 35, 0.95);
 }
 
 .skills{
@@ -118,6 +118,37 @@ body {
 
 .cover .nav-link:hover{
     color: whitesmoke;
+}
+
+.tag-primary {
+    color: #232323;
+}
+
+.service-item .mdi{
+    font-size: 5rem;
+    color: rgba(255, 249, 00, 0.9);
+}
+
+.service-item .card {
+    padding-top: 28px;
+}
+
+.company-section-title{
+    margin: 60px 20px 80px 20px;
+    color: #FFE500;
+    text-shadow: 0 0 6px #232323;
+}
+
+.coming-soon{
+    opacity: 0.75;
+}
+
+.card-block.coming-soon-text{
+    padding: 0;
+}
+
+.coming-soon-text{
+    font-size: 1.5rem;
 }
 
 #home h2 {
