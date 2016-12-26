@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--todo add all needed tags seo and devices meta-->
     <title>Web development and design: HereUA company</title>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
@@ -20,7 +21,7 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
-<body data-spy="scroll" data-target="#navbar">
+<body data-spy="scroll" data-target="#navbar" class="winter">
 
 <nav class="navbar navbar-fixed-top navbar-dark dn" id="main-nav">
     <section class="container">
@@ -293,8 +294,7 @@
 
 </section>
 
-<script
-    src="https://code.jquery.com/jquery-3.1.1.min.js"
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
     crossorigin="anonymous">
 </script>
