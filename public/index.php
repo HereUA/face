@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
     <!--todo add all needed tags seo and devices meta-->
     <title>Web development and design: HereUA company</title>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -25,16 +25,15 @@
 
 <nav class="navbar navbar-fixed-top navbar-dark dn" id="main-nav">
     <section class="container">
-        <div class="navbar-header">
+        <div class="navbar-header clearfix">
             <button class="navbar-toggler hidden-lg-up float-xs-right" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"></button>
             <a class="navbar-brand" href="/" title="HereUA Web development and design company">
-                <!--todo add christmas hat-->
                 <img src="/images/logo.png" alt="HereUA Web development and design company" class="logo" />
             </a>
         </div>
 
         <div class="collapse navbar-toggleable-md" id="navbar">
-            <ul class="nav navbar-nav float-xs-right" role="tablist">
+            <ul class="nav navbar-nav float-lg-right" role="tablist">
                 <li class="nav-item">
                     <a class="nav-link" data-scroll="true" href="#home" data-id="#home">Home <span class="sr-only">(current)</span></a>
                 </li>
@@ -64,7 +63,7 @@
                     <img src="/images/logo.png" class="logo-lg">
                     <h2>Web development & design</h2>
                 </div>
-                <nav class="main-nav col-md-4">
+                <nav class="main-nav col-md-4 hidden-sm-down">
                     <ul class="nav nav-pills nav-stacked" role="tablist">
                         <li class="nav-item">
                             <a class="nav-link" data-scroll="true" href="#service" data-id="#service">Service</a>
@@ -90,7 +89,7 @@
             <h2 class="text-xs-center display-1 company-section-title">&lt;service/&gt;</h2>
 
             <div class="row flex-items-xs-center">
-                <div class="col-sm-4 card-deck service-item">
+                <div class="col-md-4 card-deck service-item">
                     <div class="card text-xs-center card-inverse">
                         <i class="mdi mdi-cellphone-iphone card-img-top service-icon"></i>
                         <div class="card-block">
@@ -101,7 +100,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 card-deck service-item">
+                <div class="col-md-4 card-deck service-item">
                     <div class="card text-xs-center card-inverse">
                         <i class="mdi mdi-responsive card-img-top service-icon"></i>
                         <div class="card-block">
@@ -112,7 +111,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 card-deck service-item">
+                <div class="col-md-4 card-deck service-item">
                     <div class="card text-xs-center card-inverse">
                         <i class="mdi mdi-server card-img-top service-icon"></i>
                         <i class="mdi mdi-ray-start-end card-img-top service-icon"></i>
@@ -128,7 +127,7 @@
             </div>
 
             <div class="row flex-items-xs-center">
-                <div class="col-sm-4 card-deck service-item coming-soon">
+                <div class="col-md-4 card-deck service-item coming-soon">
                     <div class="card text-xs-center card-inverse">
                         <div class="card-block coming-soon-text">
                             <p class="card-title text-xs-center">coming soon...</p>
@@ -143,7 +142,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 card-deck service-item coming-soon">
+                <div class="col-md-4 card-deck service-item coming-soon">
                     <div class="card text-xs-center card-inverse">
                         <div class="card-block coming-soon-text">
                             <p class="card-title text-xs-center">coming soon...</p>
@@ -157,7 +156,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 card-deck service-item coming-soon">
+                <div class="col-md-4 card-deck service-item coming-soon">
                     <div class="card text-xs-center card-inverse">
                         <div class="card-block coming-soon-text">
                             <p class="card-title text-xs-center">coming soon...</p>
@@ -174,7 +173,7 @@
             </div>
 
             <div class="row flex-items-xs-center">
-                <div class="col-sm-4 card-deck service-item">
+                <div class="col-md-4 card-deck service-item">
                     <div class="card text-xs-center card-inverse">
                         <i class="mdi mdi-android-studio card-img-top service-icon"></i>
                         <i class="mdi mdi-calculator card-img-top service-icon"></i>
@@ -197,7 +196,7 @@
             <h2 class="text-xs-center display-1 company-section-title">&lt;team/&gt;</h2>
 
             <div class="row flex-items-xs-center">
-                <div class="col-sm-4 card-deck team-member">
+                <div class="col-md-4 card-deck team-member">
                     <div class="card text-xs-center card-inverse">
                         <img class="card-img-top" src="/images/team/alex-gerasimenko.png" alt=">Alex Gerasimenko">
                         <div class="card-block">
@@ -217,7 +216,7 @@
             </div>
 
             <div class="row flex-items-xs-center">
-                <div class="col-sm-4 card-deck team-member">
+                <div class="col-md-4 card-deck team-member">
                     <div class="card text-xs-center card-inverse">
                         <img class="card-img-top" src="/images/team/alex-khaylo.png" alt="Alex Khaylo">
                         <div class="card-block">
@@ -234,7 +233,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 card-deck team-member">
+                <div class="col-md-4 card-deck team-member">
                     <div class="card text-xs-center card-inverse">
                         <img class="card-img-top" src="/images/team/roman-brazhko.png" alt="Roman Brazhko">
                         <div class="card-block">
@@ -249,7 +248,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 card-deck team-member">
+                <div class="col-md-4 card-deck team-member">
                     <div class="card text-xs-center card-inverse">
                         <img class="card-img-top" src="/images/team/stanislav-dmitrenko.png" alt="Stanislav Dmitrenko">
                         <div class="card-block">

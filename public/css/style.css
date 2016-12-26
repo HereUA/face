@@ -221,17 +221,14 @@ body {
 }
 /*snow end*/
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 768px) {
+    .display-1{
+        font-size: 5rem;
+    }
 }
 
-@media screen and (max-width: 1200px) {
-}
-
-@media screen and (max-width: 900px) {
-}
-
-@media screen and (max-width: 678px) {
-}
-
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 544px) {
+    .display-1{
+        font-size: 4.2rem;
+    }
 }
